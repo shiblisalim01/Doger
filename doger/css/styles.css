@@ -1,0 +1,151 @@
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+/* navbar  */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/* title section */
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30px;
+}
+.f{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* features section */
+#features{
+  padding: 20px;
+  margin: 100px 50px 100px 50px;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat-bold';
+  margin-top: 20px;
+}
+p{
+  color: #8f8f8f;
+}
+.fa-check-circle:hover{
+  color:#ff4c68;
+}
+.fa-bullseye:hover{
+  color:#ff4c68;
+}
+.fa-heart:hover{
+  color:#ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+  background-color: #8f8f8f;
+  color: white;
+  text-align:center;
+}
+.testimonials-img{
+  border-radius: 100%;
+  padding: 30px;
+  width: 20%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press section */
+#press{
+  background-color: #8f8f8f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+
+/* download section */
+#ctr{
+  background-color:#ff4c68;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* footer section */
+#footer{
+  text-align: center;
+  margin-top: 30px;
+  padding: 50px;
+}
+.fa-2x{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.fa-facebook{
+  color: skyblue;
+}
+.fa-instagram{
+  color:#ff4c68;
+}
+.fa-twitter{
+  color: #1DA1F2;
+}
+.fa-envelope {
+  color: red;
+}
+.fa-linkedin-in{
+  color: #0077b5;
+}
+
+/* responsivex */
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
